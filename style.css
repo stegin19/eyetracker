@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image:url(./asset/6638212.webp); */
+    height: 570px;
+    width: 790px;
+    /* border: 1px solid; */
+    margin-left: 4%;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.outer{
+    position: absolute;
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    margin-left: 57%;
+    margin-top: 29%;
+    border: 2px solid;
+    border-radius: 50%;
+    scale: 1.7;
+    overflow: hidden;
+}
+
+.outer1{
+    position: absolute;
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    margin-left: 76%;
+    margin-top: 29%;
+    border: 2px solid;
+    border-radius: 50%;
+    scale: 1.7;
+    overflow: hidden;
+}
+
+.inner{
+    position: absolute;
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    top: 35%;
+    left: 35%;
+    border-radius: 50%;
+}
